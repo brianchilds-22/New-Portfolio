@@ -4,13 +4,15 @@
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  color: #18022c;
+  color: rgb(9,32,63);
  
 }
 .portfolio-bg {
-  background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6)),
+  /*background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6)),*/
   /*background-image: linear-gradient(to top, rgb(103, 91, 2),rgba(115, 102, 45, 0.7),rgb(255, 255, 255, 0.6)),*/
-  url(../images/Pressed-Cardboard-BC.jpg);
+  /* background-image: linear-gradient(to top, #434343 0%, black 100%), */
+  background-image: linear-gradient(to top, rgb(43,88,118), rgba(9,32,63,0.8)),
+  url(../images/Pressed-Cardboard-BC.jpg); 
 }
 
 .offset:before {
@@ -27,7 +29,7 @@ body {
   font-weight: 700;
   font-size: 12px;
   letter-spacing: 3px;
-  background: rgba(30, 1, 57,0.85)!important;
+  background: rgba(9,32,63,0.85)!important; 
 }
 
 .navbar-brand {
@@ -57,7 +59,10 @@ body {
 }
 
 #home {
-  background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6));
+  background-image: linear-gradient(to top, rgb(43,88,118), rgba(9,32,63,0.6)); 
+  
+  /* rgb(36,57,73)  rgb(81,127,164) */
+  /* background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6)); */
   /* background-image: linear-gradient(to top, rgb(103, 91, 2),rgba(115, 102, 45, 0.7),rgb(255, 255, 255, 0.6));*/
 }
 
@@ -123,8 +128,8 @@ body {
   padding: 8px 18px;
   margin: 16px;
   color: white;
-  background-color: #18022c;
-  border-color: #18022c;
+  background-color: rgb(9,32,63);
+  border-color: rgb(9,32,63);
 }
 
 .btn-secondary:hover {
@@ -179,7 +184,8 @@ h3.heading {
   z-index: -1;
 }
 .dark {
-  background-color:rgba(24,2,44, 0.75);
+  background-color:rgba(9,32,63,0.8);
+  /* rgba(24,2,44, 0.75); */
   /*background-color: rgba(164, 145, 6, 0.75);*/
   color: white;
   padding: 50px 36px;
@@ -194,7 +200,7 @@ blockquote .svg-inline--fa {
   margin: 16px;
 }
 .clients-hr {
-  border-top: 3px solid #18022c;
+  border-top: 3px solid rgb(9,32,63);
 }
 
 .clients img {
@@ -205,7 +211,7 @@ blockquote .svg-inline--fa {
 /* CONTACT */
 
 footer {
-  background-color: #18022c;
+  background-color: rgb(9,32,63);
   color: white;
   padding: 36px 0 36px;
   margin-top: 22px;
@@ -238,14 +244,14 @@ footer h3 {
   margin-bottom: 25px;
 }
 .form-control {
-  background-color: #18022c;
+  background-color: rgb(9,32,63);
   border-radius: 0;
   border: 1px solid #22A2F2;
   color: white!important;
   font-size: 18px;
 }
 .form-control:focus {
-  background: #18022c;
+  background: rgb(9,32,63);
 }
 
 hr.socket {
