@@ -59,8 +59,8 @@ body {
 }
 
 #home {
-  background-image: linear-gradient(to top, rgb(43,88,118), rgba(9,32,63,0.6)); 
-  
+  /* background-image: linear-gradient(to top, rgb(43,88,118), rgba(9,32,63,0.6));  */
+  background-color:rgba(9,32,63,0.75);
   /* rgb(36,57,73)  rgb(81,127,164) */
   /* background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6)); */
   /* background-image: linear-gradient(to top, rgb(103, 91, 2),rgba(115, 102, 45, 0.7),rgb(255, 255, 255, 0.6));*/
@@ -69,6 +69,8 @@ body {
 #Brian {
   position: absolute;
   z-index: 1;
+  width: 30%;
+  margin-top: 210px;
 }
 
 .caption {
@@ -76,7 +78,7 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 38%;
+  top: 20%;
   z-index: 1;
   color: white;
   text-transform: uppercase;
@@ -90,13 +92,13 @@ body {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 5px;
-  text-shadow: 2px 2px 22px black;
+  /* text-shadow: 2px 2px 22px black; */
   padding-bottom: 1px;
 }
 
 .caption h4 {
   font-size: 28px;
-  text-shadow: 2px 2px 22px black;
+  /* text-shadow: 2px 2px 22px black; */
   padding-bottom: 25px;
 }
 
