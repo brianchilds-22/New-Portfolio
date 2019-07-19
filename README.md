@@ -9,4 +9,14 @@
 
 - Added contact section in footer in `<form id="contact-form">` with style in css and function with Javascript.
 
-- Added newer projects to coding page and links to github repository and github pages to ALL projects with `a href`
+- Added newer projects and summaries to coding page and links to github repository and github pages to ALL projects with `a href`
+
+## Seperated Portfolio Pages
+- Split portfolio into 3 pages: Coding, Digital, and Printing.
+
+- Combined the Video editing with the Digital Page.
+
+## In the Icebox
+- Dial in the responsive designs: In the near future I will be making sure that everything is resonsive on all pages and all projects are responsive!!
+
+- Add More javascript to portfolio page not just projects.
