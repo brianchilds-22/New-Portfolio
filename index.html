@@ -326,15 +326,15 @@
 							<div class="messages"></div>
 							<div class="controls">
 								<div class="form-group">
-									<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required="required">
+									<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required>
 								</div>
 								<div class="form-group">
-									<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email">
+									<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email" required>
 								</div>
 								<div class="form-group">
-									<textarea id="form_message" name="message" class="form-control" placeholder="Add your message" rows="5"></textarea>
+									<textarea id="form_message" name="message" class="form-control" placeholder="Add your message" rows="5" required></textarea>
 								</div>
-								<input type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
+								<input type="submit" id='contactSubmit' class="btn btn-outline-light btn-sm" value="Send Message">
 							</div>
 
 						</form>

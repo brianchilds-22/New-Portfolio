@@ -332,3 +332,14 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media screen and (max-width: 576px) {
+  #Brian {
+    position: absolute;
+    z-index: 1;
+    width: 45%;
+    margin-top: 210px;
+    bottom: 0;
+}
+}
