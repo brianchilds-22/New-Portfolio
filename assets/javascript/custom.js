@@ -13,20 +13,20 @@ $(document).ready(function() {
         }
     });
 
-    $('#contactSubmit').on('click', function(event){
+
+    $('#contact-form').on('submit', function(event){
         event.preventDefault();
 
-        var data = {
-            service_id: 'smtp_service',
-            template_id: 'g',
-            user_id: '',
-            template_params: {
-                "name": $('#form_name').text(),
-                "email": $('#form_email').text(),
-                "message":$('#form_message').text(),
-              }
-        };
-        $.post('https://api.emailjs.com/api/v1.0/email/send',data)
-        .then(res => alert('email sent successfully!'))
+        var template_params = {
+            "name": $('#form_name').val(),
+            "email": $('#form_email').val(),
+            "message":$('#form_message').val(),
+         }
+         
+         var service_id = "gmail";
+         var template_id = "template_zUCOrGGR";
+         emailjs.send(service_id, template_id, template_params)
+         .then(res => alert('email sent successfully!'))
+        .catch(e => console.log(e.responseText))
     })
 });
