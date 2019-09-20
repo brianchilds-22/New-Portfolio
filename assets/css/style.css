@@ -293,9 +293,15 @@ hr.socket {
     .btn-secondary {
       width: 100%;
       font-size: 90%;
+      margin: auto;
     }
     .caption p {
       font-size: 12px;
+    }
+    .col-md-4 {
+      max-width: 70%;
+      margin: auto;
+
     }
 }
 
