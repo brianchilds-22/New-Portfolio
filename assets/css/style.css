@@ -74,7 +74,7 @@ body {
 }
 
 .caption {
-  padding: 100px;
+  /* padding: 100px; */
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -269,6 +269,7 @@ hr.socket {
     font-size: 48px;
     letter-spacing: 2px;
     padding-bottom: 1px;
+    width: 80%;
   }
   
   .caption h4 {
@@ -289,6 +290,11 @@ hr.socket {
   @media (max-width: 500px) {
     .caption h1 {
       font-size: 24px;
+      width: 80%;
+      margin: auto;
+    }
+    .caption.text-center {
+      width: 100%;
     }
     .btn-secondary {
       width: 100%;
@@ -301,7 +307,17 @@ hr.socket {
     .col-md-4 {
       max-width: 70%;
       margin: auto;
-
+    }
+   .home-wrap {
+      position: absolute;
+      z-index: 1;
+      /* width: 100%; */
+      margin-top: 120px;
+    }
+    .portfolio-bg {
+      background-image: linear-gradient(to top, rgb(43,88,118), rgba(9,32,63,0.8)),
+      url(../images/Pressed-Cardboard-BC.jpg); 
+       height: 20px;
     }
 }
 
@@ -341,11 +357,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 /* Medium (md) devices (tablets, 768px and up) */
 @media screen and (max-width: 576px) {
-  #Brian {
-    position: absolute;
-    z-index: 1;
-    width: 45%;
-    margin-top: 210px;
-    bottom: 0;
-}
+
 }
