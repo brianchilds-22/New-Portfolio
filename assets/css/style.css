@@ -67,10 +67,13 @@ body {
 }
 
 #Brian {
-  position: absolute;
+  position:fixed;
   z-index: 1;
-  width: 25%;
-  margin-top: 360px;
+  width: 40%;
+  /* height: auto; */
+  /* margin-top: 380px; */
+  bottom: 0;
+  left:0;
 }
 
 .caption {
